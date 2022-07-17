@@ -9,3 +9,24 @@ The aim is to find the sum of all products whose multiplicand/multiplier/product
 **HINT:** Some products can be obtained in more than one way so be sure to include it once in your sum.
 
 Information at [Project Euler 032](https://projecteuler.net/problem=32)
+
+## UX
+
+**User Stories**
+
+As a user, I expect the function `pandigitalProducts(4)` to return a number.
+
+As a user, I expect the function `pandigitalProducts(4)` to return 12.
+
+As a user, I expect the function `pandigitalProducts(6)` to return 162.
+
+As a user, I expect the function `pandigitalProducts(7)` to return 0.
+
+As a user, I expect the function `pandigitalProducts(8)` to return 13458.
+
+As a user, I expect the function `pandigitalProducts(9)` to return 45228.
+
+**Information Architecture**
+
+The function `pandigitalProducts(n)` returns a number, where `n` is a number.
+
