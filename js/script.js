@@ -10,7 +10,7 @@ function getNumberInfo() {
     } else {
         // Remove any leading zeros
         num = parseInt(num);
-        txt += `You have entered the number ${num}.`;
+        txt += `You have entered the number ${num}.<p>`;
         txt += `Sum of all products whose multiplicand/multiplier/product identity can be written as a 1 through ${num} pandigital is ${pandigitalProducts(num)}.`;
     }
 
