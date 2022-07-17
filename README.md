@@ -39,5 +39,22 @@ As a user, I expect the function `pandigitalProducts(9)` to return 45228.
 
 **Information Architecture**
 
-The function `pandigitalProducts(n)` returns a number, where `n` is a number.
+The function `pandigitalProducts(n)` returns a number, where `n` is a number between 2 and 9.
+
+## Features
+
+Allows the user to enter the number of digits as well as getting the sum of all products
+whose multiplicand/multiplier/product identity can be written as a 1 through n pandigital.
+Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.0-Beta1 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+
+
 
