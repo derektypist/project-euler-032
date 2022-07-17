@@ -17,3 +17,35 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+/*
+    Function to find the sum of all products whose
+    multiplicand/multiplier/product identity can be written as a 1 through
+    n pandigital
+
+    pandigitalProducts(4) returns 12
+    pandigitalProducts(6) returns 162
+    pandigitalProducts(7) returns 0
+    pandigitalProducts(8) returns 13458
+    pandigitalProducts(9) returns 45228
+
+*/
+function pandigitalProducts(n) {
+    function is1toNPandigital(n,digitStr) {
+        if (digitStr.length !== n) return false;
+        for (let i=digitStr.length;i>0;i--) {
+            if (digitStr.indexOf(i.toString()) === -1) return false;
+        }
+        return true;
+    }
+
+    function concatenateNums(...numbers) {
+        let digitStr = '';
+        for (let i=0;i<numbers.length;i++) {
+            digitStr += numbers[i].toString();
+        }
+        return digitStr;
+    }
+
+    
+}
