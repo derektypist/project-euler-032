@@ -55,6 +55,10 @@ Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.0-Beta1 and Google Fonts.
 
 Ensure all user stories have been met.
 
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-032) at the main branch.
+
 
 
 
