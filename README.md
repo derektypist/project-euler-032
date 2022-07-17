@@ -12,7 +12,18 @@ Information at [Project Euler 032](https://projecteuler.net/problem=32)
 
 ## UX
 
+**Getting Started**
+
+Enter a whole number between 2 and 9 in the input field and click on the Submit Button.  Leading Zeros are allowed, so for example, 02 is the same as 2.  You will see the number entered as well as the sum of all products whose multiplicand/multiplier/product identity can be written as a 1 through n pandigital, unless you have made an invalid input.  For example, if you entered 4, you would expect the sum of all products to be 12.  Click on the Reset Button to clear the information or to start again.
+
 **User Stories**
+
+As a user, I expect to get an error message, if I do any of:
+
+- Not enter anything in the input field
+- Entering text other than a number
+- Entering a number less than 2 or greater than 9
+- Entering a number that is not an integer
 
 As a user, I expect the function `pandigitalProducts(4)` to return a number.
 
